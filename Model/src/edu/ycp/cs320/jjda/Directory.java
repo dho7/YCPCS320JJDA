@@ -5,7 +5,7 @@ import java.util.TreeMap;
 
 public class Directory {
 
-	Map<String, String> phoneNumbers = new TreeMap();
+	Map<String, String> phoneNumbers = new TreeMap<String, String>();
 	
 	public void addPhoneNumber(String name, String number){
 		phoneNumbers.put(name , number);
